@@ -14,9 +14,8 @@ from collections import defaultdict
  
 #logging.basicConfig(level=logging.DEBUG)
 
-
 def auth():
-    return "AAAAAAAAAAAAAAAAAAAAAIQYZAEAAAAAATW%2BKD0mMJh9ArxHgT2bBgCTkic%3DUpXveqtWdJwaELP3GHvKVfdOoJatuCAZKIbxovkteWssJhBgxC"
+    return "Your token here"
 
 def create_headers(bearer_token):
     headers = {"Authorization": "Bearer {}".format(bearer_token)}
@@ -58,7 +57,7 @@ handles = parse_handles("FanAPI/twitter_handles.csv")
 result = defaultdict(dict)
 invalid_users = []
 
-client = tweepy.Client(bearer_token = "AAAAAAAAAAAAAAAAAAAAAIQYZAEAAAAAATW%2BKD0mMJh9ArxHgT2bBgCTkic%3DUpXveqtWdJwaELP3GHvKVfdOoJatuCAZKIbxovkteWssJhBgxC", wait_on_rate_limit=True)
+client = tweepy.Client(bearer_token = "Your token here", wait_on_rate_limit=True)
 
 
 usernames = ",".join(handles)
