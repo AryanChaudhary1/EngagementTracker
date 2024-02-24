@@ -1,6 +1,5 @@
-api_key = '7PIytmz6eqahcJl69SvE2rk5o'
+api_key = 'Insert key here'
 
-api_key_secret = 'n4cLFhL54hfsQ9LQMvlmDGdbgxPg5oWuVsfWSJZukDkmIU0oan'
+api_key_secret = 'Insert key secret here'
 
-# BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAIH2ZAEAAAAAYuaUc%2FxFANty6f9sR%2FBCa5IkIE8%3DzK0C2PuilW4gLlO8vKUS10NwPEwwHDEF2XOjXDrzZUQtBlkApD'
-BEARER_TOKEN =  'AAAAAAAAAAAAAAAAAAAAAIQYZAEAAAAAATW%2BKD0mMJh9ArxHgT2bBgCTkic%3DUpXveqtWdJwaELP3GHvKVfdOoJatuCAZKIbxovkteWssJhBgxC'
+BEARER_TOKEN =  'Insert your token here'
